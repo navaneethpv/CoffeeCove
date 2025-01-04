@@ -149,19 +149,16 @@ section {
     margin-left: 24px;
 }
 .icons {
-    display: flex;
-    flex-direction: row;
-    margin: -80px 8rem;
-    position: relative;
+    position: absolute;
     top: 50%;
     padding: 0 7%;
     transform: translateY(-50%);
-    gap: 10rem;
     
 }
 .icons i {
-    display: grid;
+    display: block;
     margin: 35px 0;
     color: var(--text-color);
     font-size: 23px;
+    transition: all .6s ease;
 }
