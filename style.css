@@ -162,3 +162,22 @@ section {
     font-size: 23px;
     transition: all .6s ease;
 }
+.scroll {
+    position: absolute;
+   top: 92%;
+   right: 7%;
+   transform: translateY(-50%);
+   border: 2px solid #fff;
+   padding: 9px;
+   border-radius: 7px;
+
+}
+.scroll a {
+    font-size: 13px;
+    color: var(--text-color);
+    font-weight: 500;
+}
+.scroll i {
+    font-size: 17px;
+    color: var(--text-color);
+}
