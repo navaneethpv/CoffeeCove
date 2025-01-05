@@ -181,3 +181,23 @@ section {
     font-size: 17px;
     color: var(--text-color);
 }
+
+@media (max-width:1770px) {
+    header {
+        padding: 24px 4%;
+    }
+    .icons {
+        padding: 0 30px;
+    }
+    .scroll {
+        right: 4%;
+    }
+
+    
+} 
+@media (max-width: 1616px) {
+    :root {
+        --big-font: 6rem;
+    }
+    
+}
