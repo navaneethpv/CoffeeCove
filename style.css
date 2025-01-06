@@ -181,6 +181,11 @@ section {
     font-size: 17px;
     color: var(--text-color);
 }
+.scroll:hover {
+    transform: translateY(-15px);
+    transition: all .6s ease;
+
+}
 
 @media (max-width:1770px) {
     header {
