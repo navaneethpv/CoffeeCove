@@ -248,7 +248,7 @@ section {
    }
    .navlist.open{
     left: 0;
-   }
+}
 }
 @media (max-width: 891px) {
     :root {

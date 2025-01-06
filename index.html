@@ -32,7 +32,7 @@
 
          <div class="right-content">
             <a href="#" class="nav-btn">Sign In</a>
-            <div class="bx bx-menu" id="menu-icon"></div>
+            <div class="bx bx-menu" id="menu-icon" onclick="toggleNav()" ></div>
         </div>
     </header>
 
@@ -69,7 +69,17 @@
         </a>
      </div>
     
-   
+   <script>
+   function toggleNav() {
+    
+    let menu = document.querySelector('#menu-icon');
+    let navlist = document.querySelector('.navlist');
+
+    menu.classList.toggle('bx-x');
+    navlist.classList.toggle('open');
+   }
+
+   </script>
 
    
 </body>
